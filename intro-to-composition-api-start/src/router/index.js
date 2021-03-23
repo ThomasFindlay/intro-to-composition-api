@@ -5,9 +5,10 @@ const routes = [
     path: '/',
     name: 'Products',
     component: () => import('@/views/product/Products.vue'),
+    redirect: '/product',
     children: [
       {
-        path: ':id',
+        path: 'product/:id?',
         name: 'SelectedProduct',
         component: () => import('@/views/product/SelectedProduct.vue'),
       },

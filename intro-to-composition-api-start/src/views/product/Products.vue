@@ -2,7 +2,10 @@
   <div class="container mx-auto p-4">
     <h1 class="text-2xl font-semibold mb-8">Products</h1>
 
-    <form class="w-2/3 mx-auto text-left mb-8 flex space-x-6" autocomplete>
+    <form
+      class="w-2/3 mx-auto text-left mb-16 flex space-x-6"
+      autocomplete="off"
+    >
       <div class="flex-grow">
         <label class="block mb-2" for="products-filter">Filter products</label>
         <input
